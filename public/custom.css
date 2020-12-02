@@ -1,0 +1,40 @@
+.text-color{
+    color: #646f79;
+}
+.heading-color{
+    color: black;
+}
+.brand-color{
+    color: #DD6B20;
+}
+/*navingation*/
+.header-area ul li.active-nav{
+    color: #DD6B20;
+}
+.header-area .nav.show{
+    visibility: visible;
+    display: block;
+}
+.about-back{
+    top:10px;
+    right: -10px;
+}
+.section-design::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #718096;
+    content: "";
+}
+.section-design::after{
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    width: 41%;
+    height: 3px;
+    background-color: #FF6347;
+    content: "";
+    transform: translateX(-50%);
+}

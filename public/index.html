@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body class="font-body">
+    <header class="absolute top-0 left-0 right-0 w-full header-area bg-black z-30" id="home">
+        <div class="container mx-auto">
+            <div class="">
+                <nav class="flex flex-wrap p-3 items-center">
+                    <div class="">
+                        
+                            <a href="index.html" class="uppercase text-white p-2 mr-4 inline-flex items-center transition duration-300 hover:text-orange-600 ">
+                                Tailwind</a>
+                        
+                    </div>
+                    <div class="toggle-btn text-white inline-flex p-3 lg:hidden ml-auto">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    
+                    <div class="hidden transition duration-700 w-full lg:inline-flex lg:flex-grow lg:w-auto nav lg:text-right text-center" id="navigation">
+                        <ul class=" text-white flex flex-inline capitalize lg:inline-flex lg:flex-row lg:ml-auto flex flex-col">
+                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 active-nav"><a href="index.html" class
+                                ="p-1">home</a></li>
+                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#about" class
+                                ="p-1 ">about</a></li>
+                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#" class
+                                ="p-1 ">service</a></li>
+                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#" class
+                                ="p-1 ">gallery</a></li>
+                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#" class
+                                ="p-1 ">contract</a> </li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="h-screen w-full flex items-center relative bg-center bg-cover" style="background-image: url(back.jpg);">
+            <div class="absolute bg-black bg-opacity-75 w-full h-screen">
+
+            </div>
+            <div class="w-2/3 mx-auto text-center text-white z-10">
+                <p class="text-2xl capitalize">welcome to our agency</p>
+                <h1 class="text-5xl capitalize">Gain The <span class="text-orange-600">beautiful</span> Result</h1>
+                <p class="pb-10">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, <br> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua
+                </p>
+                <div class="buttons inline-flex flex-wrap text-center">
+                    <a href="#about" class="border border-orange-600 capitalize inline-block mr-10 py-2 px-4 text-white rounded-md transition duration-300 hover:bg-orange-700 ">learn more</a>
+                    <a href="#" class="border border-orange-600 capitalize inline-block py-2 px-4 text-white rounded-md transition duration-300 hover:bg-orange-700">contact us</a>
+                </div>
+            </div>
+            
+    </section>
+    <!--about section starts-->
+    <section class="p-20 about" id="about">
+        <div class="container mx-auto">
+            <div class="w-full text-center">
+                <div class="section-title">
+                    <p class="text-gray-600 font-normal">what we do</p>
+                    <h2 class="font-normal capitalize text-4xl section-design relative inline-block">about us</h2>
+                    <p class="text-gray-600 font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                </div>
+            </div>
+            <div class="block about-content lg:flex flex-wrap pt-10 -mx-5">
+                <div class="w-6/12 px-5">
+                    <h1 class="text-black-700 text-3xl capitalize">welcome to our company</h1>
+                    <p class="py-5 text-gray-600 font-normal">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="">
+                        <div class="-mx-5 flex flex-wrap text-gray-600 font-normal">
+                            <div class="w-6/12 px-5">
+                                <ul class="">
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                </ul>
+                            </div>
+                            <div class="w-6/12 px-5">
+                                <ul class="">
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-6/12 px-5">
+                    <div class="about-right relative">
+                        <div class="z-10">
+                            <img src="about.jpg" alt="" class="w-full">
+                        </div>
+                        <div class="absolute w-full bg-orange-600 h-full z-minus about-back"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap mt-10 overflow-hidden text-center -mx-5 text-color">
+                <div class="w-4/12 px-5 text-left">
+                    <i class="far fa-bookmark"></i>
+                    <h2 class="text-2xl capitalize heading-color">our mission</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                    <div class="learn-more capitalize">
+                        
+                            <a href="#">learn more
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a> 
+                         
+                    </div>
+                </div>
+                <div class="w-4/12 px-5">
+                
+                </div>
+                <div class="w-4/12 px-5">
+                
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+  
+    </script>
+</body>
+</html>

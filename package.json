@@ -1,0 +1,19 @@
+{
+  "name": "ninjafood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "tailwindcss": "^1.8.13"
+  },
+  "devDependencies": {
+    "tailwindcss-pseudo-elements": "^1.4.1"
+  }
+}

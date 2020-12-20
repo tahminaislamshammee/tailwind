@@ -4,3 +4,6 @@
 @tailwind utilities;
 
 
+.try{
+    @apply text-2xl capitalize;
+}

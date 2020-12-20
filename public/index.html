@@ -9,15 +9,14 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 <body class="font-body">
-    <header class="absolute top-0 left-0 right-0 w-full header-area bg-black z-30" id="home">
-        <div class="container mx-auto">
+    <header class="fixed top-0 left-0 right-0 w-full header-area bg-black z-30" id="home">
+        <div class="container mx-auto px-4">
             <div class="">
-                <nav class="flex flex-wrap p-3 items-center">
+                <nav class="flex flex-wrap items-center">
                     <div class="">
-                        
-                            <a href="index.html" class="uppercase text-white p-2 mr-4 inline-flex items-center transition duration-300 hover:text-orange-600 ">
-                                Tailwind</a>
-                        
+                        <a href="index.html" class="uppercase text-white p-2 mr-4 inline-flex items-center transition duration-300 hover:text-orange-600 ">
+                            Tailwind
+                        </a>
                     </div>
                     <div class="toggle-btn text-white inline-flex p-3 lg:hidden ml-auto">
                         <i class="fas fa-bars"></i>
@@ -29,11 +28,11 @@
                                 ="p-1">home</a></li>
                             <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#about" class
                                 ="p-1 ">about</a></li>
-                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#" class
+                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#service" class
                                 ="p-1 ">service</a></li>
-                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#" class
+                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#gallery" class
                                 ="p-1 ">gallery</a></li>
-                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#" class
+                            <li class="lg:inline-flex lg:w-auto px-3 py-2 transition duration-300 hover:text-orange-600 "><a href="#subscribe" class
                                 ="p-1 ">contract</a> </li>
                         </ul>
                     </div>
@@ -52,50 +51,52 @@
                 <p class="pb-10">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, <br> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua
                 </p>
                 <div class="buttons inline-flex flex-wrap text-center">
-                    <a href="#about" class="border border-orange-600 capitalize inline-block mr-10 py-2 px-4 text-white rounded-md transition duration-300 hover:bg-orange-700 ">learn more</a>
+                    <a href="#" class="border border-orange-600 capitalize inline-block mr-10 py-2 px-4 text-white rounded-md transition duration-300 hover:bg-orange-700 ">learn more</a>
                     <a href="#" class="border border-orange-600 capitalize inline-block py-2 px-4 text-white rounded-md transition duration-300 hover:bg-orange-700">contact us</a>
                 </div>
             </div>
-            
     </section>
     <!--about section starts-->
-    <section class="p-20 about" id="about">
-        <div class="container mx-auto">
+    <section class="py-5 md:py-20 about" id="about">
+        <div class="container mx-auto px-4">
             <div class="w-full text-center">
                 <div class="section-title">
                     <p class="text-gray-600 font-normal">what we do</p>
-                    <h2 class="font-normal capitalize text-4xl section-design relative inline-block">about us</h2>
+                    <h2 class="font-normal capitalize text-4xl section-desig relative inline-block">about us
+                        <div class="absolute left-0 bottom-0 w-full h-1 bg-orange-600"></div>
+                    </h2>
+                    
                     <p class="text-gray-600 font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                 </div>
             </div>
             <div class="block about-content lg:flex flex-wrap pt-10 -mx-5">
-                <div class="w-6/12 px-5">
+                <div class="block lg:w-6/12 px-5">
                     <h1 class="text-black-700 text-3xl capitalize">welcome to our company</h1>
                     <p class="py-5 text-gray-600 font-normal">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div class="">
-                        <div class="-mx-5 flex flex-wrap text-gray-600 font-normal">
-                            <div class="w-6/12 px-5">
+                        <div class="-mx-5 block md:flex flex-wrap text-gray-600 font-normal">
+                            <div class="w-full md:w-6/12 px-5">
                                 <ul class="">
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
                                 </ul>
                             </div>
-                            <div class="w-6/12 px-5">
+                            <div class="w-full md:w-6/12 px-5">
                                 <ul class="">
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                    <li class="mb-2"><i class="fas fa-arrow-right text-xs"></i> awesome designs</li>
-                                </ul>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                    <li class="mb-2"><i class="far fa-thumbs-up text-xs mr-2"></i>awesome designs</li>
+                                </ul>      
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="w-6/12 px-5">
+                <div class="lg:w-6/12 px-5">
                     <div class="about-right relative">
                         <div class="z-10">
                             <img src="about.jpg" alt="" class="w-full">
@@ -104,28 +105,346 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-wrap mt-10 overflow-hidden text-center -mx-5 text-color">
-                <div class="w-4/12 px-5 text-left">
-                    <i class="far fa-bookmark"></i>
-                    <h2 class="text-2xl capitalize heading-color">our mission</h2>
+            <div class="flex flex-wrap mt-10 overflow-hidden text-center -mx-5 text-gray-600">
+                <div class="lg:w-4/12 px-5 py-5 text-left transition duration-300 ease-in-out hover:shadow-md group">
+                    <i class="far fa-bookmark group-hover:text-orange-600"></i>
+                    <h2 class="text-2xl capitalize text-black">our mission</h2>
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
-                    <div class="learn-more capitalize">
-                        
-                            <a href="#">learn more
-                                <i class="fas fa-long-arrow-alt-right"></i>
-                            </a> 
-                         
+                    <div class="learn-more capitalize text-orange-600 transition duration-300 ease-in-out border-b-2 border-white-100 hover:border-orange-500 inline-block">
+                        <a href="#" class="">learn more
+                            <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                        </a> 
                     </div>
                 </div>
-                <div class="w-4/12 px-5">
-                
+                <div class="lg:w-4/12 px-5 py-5 text-left transition duration-300 ease-in-out hover:shadow-md group">
+                    <i class="far fa-bookmark group-hover:text-orange-600"></i>
+                    <h2 class="text-2xl capitalize text-black">our mission</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                    <div class="learn-more capitalize text-orange-600 transition duration-300 ease-in-out border-b-2 border-white-100 hover:border-orange-500 inline-block">
+                        <a href="#" class="">learn more
+                            <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                        </a> 
+                    </div>
                 </div>
-                <div class="w-4/12 px-5">
-                
+                <div class="lg:w-4/12 px-5 py-5 text-left transition duration-300 ease-in-out hover:shadow-md group">
+                    <i class="far fa-bookmark group-hover:text-orange-600"></i>
+                    <h2 class="text-2xl capitalize text-black">our mission</h2>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                    <div class="learn-more capitalize text-orange-600 transition duration-300 ease-in-out border-b-2 border-white-100 hover:border-orange-500 inline-block ">
+                        <a href="#" class="">learn more
+                            <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                        </a> 
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--about section ends-->
+    <!--feature section starts-->
+    <section class="py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="">
+                <div class="">
+                    <div class="">
+                        <div class="w-full text-center">
+                            <div class="section-title mb-20 pt-10 px-5">
+                                <p class="text-gray-600 font-normal">Highly creative solutions</p>
+                                <h2 class="font-normal capitalize text-4xl relative inline-block mb-5">we are digital
+                                <div class="absolute left-0 right-0 w-1/2 h-1 bg-orange-600 transform translate-x-1/2 "></div></h2>
+                                <p class="text-gray-600 font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                            </div>
+                        </div>
+                        <div class="container mx-auto px-4">
+                           <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="mb-5">
+                                <i class="far fa-newspaper"></i>
+                                <h1 class="capitalize text-2xl">our mission</h1>
+                                <p class="text-gray-600 text-md">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                            </div>
+                            <div class="mb-5">
+                                <i class="far fa-newspaper"></i>
+                                <h1 class="capitalize text-2xl">our mission</h1>
+                                <p class="text-gray-600 text-md">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                            </div>
+                            <div class="mb-5">
+                                <i class="far fa-newspaper"></i>
+                                <h1 class="capitalize text-2xl">our mission</h1>
+                                <p class="text-gray-600 text-md">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                            </div>
+                            <div class="mb-5">
+                                <i class="far fa-newspaper"></i>
+                                <h1 class="capitalize text-2xl">our mission</h1>
+                                <p class="text-gray-600 text-md">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-full bg-cover bg-center relative z-10 hidden md:inline-block" style="background-image: url('feature-1.jpg');">
+                <div class="absolute bg-black bg-opacity-50 w-full h-full"></div>
+            </div>
+        </div>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2">
+            <div class="w-full h-full bg-cover bg-center relative z-10 hidden md:inline-block" style="background-image: url('feature-2.jpg');">
+                <div class="absolute bg-black bg-opacity-50 w-full h-full"></div>
+            </div>
+            <div class="">
+                <div class="">
+                    <div class="">
+                        <div class="w-full text-center">
+                            <div class="section-title mb-20 pt-10 px-4">
+                                <p class="text-gray-600 font-normal">Highly creative solutions</p>
+                                <h2 class="font-normal capitalize text-4xl relative inline-block mb-5">we are digital
+                                <div class="absolute left-0 right-0 w-1/2 h-1 bg-orange-600 transform translate-x-1/2 "></div></h2>
+                                <p class="text-gray-600 font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                            </div>
+                        </div>
+                        <div class="container mx-auto px-4">
+                           <div class="grid  grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="mb-5">
+                                <i class="far fa-newspaper"></i>
+                                <h1 class="capitalize text-2xl">our mission</h1>
+                                <p class="text-gray-600 text-md">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                            </div>
+                            <div class="mb-5">
+                                <i class="far fa-newspaper"></i>
+                                <h1 class="capitalize text-2xl">our mission</h1>
+                                <p class="text-gray-600 text-md">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                            </div>
+                            <div class="mb-5">
+                                <i class="far fa-newspaper"></i>
+                                <h1 class="capitalize text-2xl">our mission</h1>
+                                <p class="text-gray-600 text-md">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                            </div>
+                            <div class="mb-5">
+                                <i class="far fa-newspaper"></i>
+                                <h1 class="capitalize text-2xl">our mission</h1>
+                                <p class="text-gray-600 text-md">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--feature secttion ends-->
+    <!--service section starts-->
+    <section class="py-20" id="service">
+        <div class="container mx-auto px-4">
+            <div>
+                <div class="section-title text-center mb-20">
+                    <p class="text-gray-600 font-normal">what we do</p>
+                    <h2 class="font-normal capitalize text-4xl relative inline-block">our services
+                        <div class="absolute left-0 bottom-0 w-1/2 h-1 bg-orange-600 transform translate-x-1/2"></div>
+                    </h2>
+                    <p class="text-gray-600 font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-5 sm:grid-cols-2">
+                <div class="mb-5 shadow-md p-10 group transition duration-300 hover:bg-orange-500 transform hover:-translate-y-2">
+                    <i class="far fa-newspaper group-hover:text-white"></i>
+                    <h1 class="capitalize text-2xl group-hover:text-white">our mission</h1>
+                    <p class="text-gray-600 text-md group-hover:text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                </div>
+                <div class="mb-5 shadow-md p-10 group transition duration-300 hover:bg-orange-500 transform hover:-translate-y-2">
+                    <i class="far fa-newspaper group-hover:text-white"></i>
+                    <h1 class="capitalize text-2xl group-hover:text-white">our mission</h1>
+                    <p class="text-gray-600 text-md group-hover:text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                </div>
+                <div class="mb-5 shadow-md p-10 group transition duration-300 hover:bg-orange-500 transform hover:-translate-y-2">
+                    <i class="far fa-newspaper group-hover:text-white"></i>
+                    <h1 class="capitalize text-2xl group-hover:text-white">our mission</h1>
+                    <p class="text-gray-600 text-md group-hover:text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                </div>
+                <div class="mb-5 shadow-md p-10 group transition duration-300 hover:bg-orange-500 transform hover:-translate-y-2">
+                    <i class="far fa-newspaper group-hover:text-white"></i>
+                    <h1 class="capitalize text-2xl group-hover:text-white">our mission</h1>
+                    <p class="text-gray-600 text-md group-hover:text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                </div>
+                <div class="mb-5 shadow-md p-10 group transition duration-300 hover:bg-orange-500 transform hover:-translate-y-2">
+                    <i class="far fa-newspaper group-hover:text-white"></i>
+                    <h1 class="capitalize text-2xl group-hover:text-white">our mission</h1>
+                    <p class="text-gray-600 text-md group-hover:text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                </div>
+                <div class="mb-5 shadow-md p-10 group transition duration-300 hover:bg-orange-500 transform hover:-translate-y-2">
+                    <i class="far fa-newspaper group-hover:text-white"></i>
+                    <h1 class="capitalize text-2xl group-hover:text-white">our mission</h1>
+                    <p class="text-gray-600 text-md group-hover:text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--service section ends-->
+    <!--process section starts-->
+    <section class="h-full w-full relative bg-center bg-cover z-10 py-10 bg-fixed" style="background-image: url(process.jpg);">
+        <div class="absolute bg-black bg-opacity-75 w-full h-full z-minus top-0 left-0 right-0">
+
+        </div>
+            <div class="container mx-auto px-4">
+                <div class="section-title text-center mb-10">
+                    <p class="text-white font-normal">what we do</p>
+                    <h2 class="font-normal capitalize text-4xl section-desig relative inline-block text-orange-600">our work process
+                        <div class="absolute left-0 bottom-0 w-1/2 h-1 bg-orange-600 transform translate-x-1/2"></div>
+                    </h2>
+                    <p class="text-white font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-4">
+                    <div class="relative">
+                        <h1 class="bg-orange-500 capitalize text-white p-2 rounded-md">design</h1>
+                        <div class="absolute right-0 top-0 bg-orange-600 w-1/4 h-full text-center text-white p-2">1</div>
+                    </div>
+                    <div class="relative">
+                        <h1 class="bg-orange-500 capitalize text-white p-2 rounded-md">design</h1>
+                        <div class="absolute right-0 top-0 bg-orange-600 w-1/4 h-full text-center text-white p-2">1</div>
+                    </div>
+                    <div class="relative">
+                        <h1 class="bg-orange-500 capitalize text-white p-2 rounded-md">design</h1>
+                        <div class="absolute right-0 top-0 bg-orange-600 w-1/4 h-full text-center text-white p-2">1</div>
+                    </div>
+                    <div class="relative">
+                        <h1 class="bg-orange-500 capitalize text-white p-2 rounded-md">design</h1>
+                        <div class="absolute right-0 top-0 bg-orange-600 w-1/4 h-full text-center text-white p-2">1</div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--process section ends-->
+    <!--project section starts-->
+    <section class="mt-20 py-10" id="gallery">
+        <div>
+            <div class="container mx-auto px-4">
+                <div class="section-title text-center mb-20">
+                    <p class="text-gray-600 font-normal">what we do</p>
+                    <h2 class="font-normal capitalize text-4xl relative inline-block text-black-600">latest projects
+                        <div class="absolute left-0 bottom-0 w-1/2 h-1 bg-orange-600 transform translate-x-1/2"></div>
+                    </h2>
+                    <p class="text-gray-600 font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="">
+                        <div class="relative">
+                            <div class="absolute left-0 right-0 h-full bg-black bg-opacity-50"></div>
+                            <img src="latest-project-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute left-0 right-0 h-full bg-black bg-opacity-50"></div>
+                        <img src="latest-project-2.jpg" alt="" class="">
+                    </div>
+                    <div class="relative">
+                        <div class="absolute left-0 right-0 h-full bg-black bg-opacity-50"></div>
+                        <img src="latest-project-3.jpg" alt="">
+                    </div>
+
+                    <div class="relative">
+                        <div class="absolute left-0 right-0 h-full bg-black bg-opacity-50"></div>
+                        <img src="latest-project-3.jpg" alt="">
+                    </div>
+                    <div class="relative">
+                        <div class="absolute left-0 right-0 h-full bg-black bg-opacity-50"></div>
+                        <img src="latest-project-1.jpg" alt="">
+                    </div>
+                    <div class="relative ">
+                        <div class="absolute left-0 right-0 h-full bg-black bg-opacity-50"></div>
+                        <img src="latest-project-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--project section ends-->
+    <!--team area starts-->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+                <div class="section-title text-center mb-20">
+                    <p class="text-gray-600 font-normal hover:bg-red-700">what we do</p>
+                    <h2 class="font-normal capitalize text-4xl relative inline-block text-black-600">creative team
+                        <div class="absolute left-0 bottom-0 w-1/2 h-1 bg-orange-600 transform translate-x-1/2"></div>
+                    </h2>
+                    <p class="text-gray-600 font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <div class="w-full">
+                        <img src="team-1.jpg" alt="team" class="w-full">
+                    </div>
+                    <div class="">
+                        <img src="team-2.jpg" alt="team" class="w-full">
+                    </div>
+                    <div class="">
+                        <img src="team-3.jpg" alt="team" class="w-full">
+                    </div>
+                    <div class="">
+                        <img src="team-1.jpg" alt="team" class="w-full">
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--team area ends-->
+    <!--video area starts-->
+    <section class="py-20 relative z-10 bg-cover bg-center bg-fixed" style="background-image: url('video-img.jpg');">
+        <div class="absolute bg-black bg-opacity-75 w-full h-full z-minus top-0 left-0 right-0"></div>
+        <div class="container mx-auto px-4">
+            <div class="">
+                <div class="text-center text-white">
+                    <i class="far fa-play-circle text-5xl leading-normal transition duration-75 hover:text-orange-600"></i>
+                    <h1 class="text-3xl capitalize">we are workholoic</h1>
+                    <p class="md:px-20 pt-3 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consectetur accusamus, ullam omnis repellendus ut, fuga perspiciatis neque deserunt aperiam nam facere voluptas soluta cumque!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--video area ends-->
+    <!--subscription area starts-->
+    <section class=" mt-20 py-20 relative z-10 bg-cover bg-center" style="background-image: url('subscribe-img.jpg');" id="subscribe">
+        <div class="absolute bg-black bg-opacity-75 w-full h-full z-minus top-0 left-0 right-0"></div>
+        <div class="container mx-auto px-4">
+            <div class=" grid grid-cols-1">
+                <div class="section-title text-center mb-20">
+                    <h2 class="font-normal capitalize text-4xl relative inline-block text-white">subscribe now
+                        <div class="absolute left-0 bottom-0 w-1/2 h-1 bg-orange-600 transform translate-x-1/2"></div>
+                    </h2>
+                    <p class="text-white font-normal">we dont spam you</p>
+                </div>
+            </div>
+            <div class="w-full md:w-7/12 mx-auto px-4">
+                    <div class="w-full">
+                        <form action="" class="relative outline-none">
+                            <input type="email" placeholder="Enter your email address" class="w-full p-2 text-black rounded-full outline-none">
+                            <input type="submit" value="subscribe" class="absolute right-0 top-0 bottom-0  w-1/3 rounded-full text-white bg-orange-500 capitalize outline-none">
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--subscription area ends-->
+    <!--footer section starts-->
+    <footer class="bg-gray-800 py-20 relative">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 text-center text-white">
+                <div class="pb-5 md:pb-0">
+                   <h1 class="uppercase text-2xl">location</h1>
+                   <p>xyz, Sylhet Bangladesh</p> 
+                </div>
+                <div class="pb-5 md:pb-0">
+                    <h1 class="uppercase text-2xl">around the web</h1>
+                    <i class="fab fa-facebook-f ease-in-out rounded-full border border-white h-8 w-8 leading-8 mr-2 transition duration-500 hover:text-orange-600 hover:border-orange-600 transform hover:scale-110 cursor-pointer"></i>
+                    <i class="fab fa-twitter  rounded-full border border-white h-8 w-8 leading-8 mr-2 transition duration-500 hover:text-orange-600 transform hover:scale-110 hover:border-orange-600 cursor-pointer"></i>
+                    <i class="fab fa-google-plus-g rounded-full border border-white h-8 w-8 leading-8 mr-2 transition duration-500 hover:text-orange-600 transform hover:scale-110 hover:border-orange-600 cursor-pointer"></i>
+                    <i class="fab fa-linkedin-in rounded-full border border-white h-8 w-8 leading-8  transition duration-500 hover:text-orange-600 transform hover:scale-110 hover:border-orange-600 cursor-pointer"></i>
+                </div>
+                <div class="pb-5 md:pb-0">
+                    <h1 class="uppercase text-2xl">about</h1>
+                    <p class="w-full md:w-1/2 mx-auto">This is a sample page created to demonstrate Tailwind css</p>
+                </div>
+            </div>
+            <div class="w-full absolute bottom-0 left-0 py-3 bg-black text-white text-center text-xs">
+                <p>&#169;2020 X company. All rights reserved.</p> 
+            </div>
+        </div>
+    </footer>
+    <!--footer section ends-->
  
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/main.js"></script>

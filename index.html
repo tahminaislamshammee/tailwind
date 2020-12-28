@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.c">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/styles.css">
     <link rel="stylesheet" href="public/css/custom.css">
 </head>
@@ -45,13 +46,13 @@
             <div class="absolute bg-black bg-opacity-75 w-full h-screen">
 
             </div>
-            <div class="w-2/3 mx-auto text-center text-white z-10">
-                <p class="text-2xl capitalize">welcome to our agency</p>
-                <h1 class="text-5xl capitalize">Gain The <span class="text-orange-600">beautiful</span> Result</h1>
+            <div class="w-full px-2 md:w-2/3 mx-auto text-center text-white z-10">
+                <p class="text-md md:text-2xl capitalize">welcome to our agency</p>
+                <h1 class="text-xl md:text-5xl capitalize">Gain The <span class="text-orange-600">beautiful</span> Result</h1>
                 <p class="pb-10">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, <br> Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua
                 </p>
                 <div class="buttons inline-flex flex-wrap text-center">
-                    <a href="#" class="border border-orange-600 capitalize inline-block mr-10 py-2 px-4 text-white rounded-md transition duration-300 hover:bg-orange-700 ">learn more</a>
+                    <a href="#" class="border border-orange-600 capitalize inline-block mr-5 md:mr-10 py-2 px-4 text-white rounded-md transition duration-300 hover:bg-orange-700 ">learn more</a>
                     <a href="#" class="border border-orange-600 capitalize inline-block py-2 px-4 text-white rounded-md transition duration-300 hover:bg-orange-700">contact us</a>
                 </div>
             </div>
@@ -69,9 +70,9 @@
                     <p class="text-gray-600 font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
                 </div>
             </div>
-            <div class="block about-content lg:flex flex-wrap pt-10 -mx-5">
+            <div class="block about-content lg:flex flex-wrap pt-10">
                 <div class="block lg:w-6/12 px-5">
-                    <h1 class="text-black-700 text-3xl capitalize">welcome to our company</h1>
+                    <h1 class="text-black-700  text-2xl md:text-3xl capitalize">welcome to our company</h1>
                     <p class="py-5 text-gray-600 font-normal">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latinin contaversy. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div class="">
                         <div class="-mx-5 block md:flex flex-wrap text-gray-600 font-normal">
@@ -96,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="lg:w-6/12 px-5">
+                <div class="lg:w-6/12 px-5 ">
                     <div class="about-right relative">
                         <div class="z-10">
                             <img src="public/about.jpg" alt="" class="w-full">
@@ -105,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-wrap mt-10 overflow-hidden text-center -mx-5 text-gray-600">
+            <div class="flex flex-wrap mt-10 overflow-hidden text-center text-gray-600">
                 <div class="lg:w-4/12 px-5 py-5 text-left transition duration-300 ease-in-out hover:shadow-md group">
                     <i class="far fa-bookmark group-hover:text-orange-600"></i>
                     <h2 class="text-2xl capitalize text-black">our mission</h2>
@@ -411,8 +412,8 @@
             <div class="w-full md:w-7/12 mx-auto px-4">
                     <div class="w-full">
                         <form action="" class="relative outline-none">
-                            <input type="email" placeholder="Enter your email address" class="w-full p-2 text-black rounded-full outline-none">
-                            <input type="submit" value="subscribe" class="absolute right-0 top-0 bottom-0  w-1/3 rounded-full text-white bg-orange-500 capitalize outline-none">
+                            <input type="email" placeholder="Enter your email address" class="w-full p-2 text-black rounded-full outline-none text-xs md:text-lg">
+                            <input type="submit" value="subscribe" class="absolute right-0 top-0 bottom-0  w-1/3 rounded-full text-white bg-orange-500 capitalize outline-none text-xs md:text-lg">
                         </form>
                     </div>
             </div>
@@ -420,7 +421,7 @@
     </section>
     <!--subscription area ends-->
     <!--footer section starts-->
-    <footer class="bg-gray-800 py-20 relative">
+    <footer class="py-10 bg-gray-800 md:py-20 relative">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 text-center text-white">
                 <div class="pb-5 md:pb-0">
@@ -429,10 +430,17 @@
                 </div>
                 <div class="pb-5 md:pb-0">
                     <h1 class="uppercase text-2xl">around the web</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ease-in-out rounded-full border border-white h-8 w-8 leading-8 mr-2 transition duration-500 hover:text-orange-600 hover:border-orange-600 transform hover:scale-110 cursor-pointer inline-block">
+                        <path fill="currentColor" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path>
+                      </svg>
                     <i class="fab fa-facebook-f ease-in-out rounded-full border border-white h-8 w-8 leading-8 mr-2 transition duration-500 hover:text-orange-600 hover:border-orange-600 transform hover:scale-110 cursor-pointer"></i>
                     <i class="fab fa-twitter  rounded-full border border-white h-8 w-8 leading-8 mr-2 transition duration-500 hover:text-orange-600 transform hover:scale-110 hover:border-orange-600 cursor-pointer"></i>
                     <i class="fab fa-google-plus-g rounded-full border border-white h-8 w-8 leading-8 mr-2 transition duration-500 hover:text-orange-600 transform hover:scale-110 hover:border-orange-600 cursor-pointer"></i>
                     <i class="fab fa-linkedin-in rounded-full border border-white h-8 w-8 leading-8  transition duration-500 hover:text-orange-600 transform hover:scale-110 hover:border-orange-600 cursor-pointer"></i>
+
+                    
+
+                    
                 </div>
                 <div class="pb-5 md:pb-0">
                     <h1 class="uppercase text-2xl">about</h1>
